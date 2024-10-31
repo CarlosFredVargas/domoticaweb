@@ -5,9 +5,58 @@
     box-sizing: border-box;
 }
 
-#explicacion {
-width: 500px;
-height: 500px;
-background: blue;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*aca tengo estilos generales*/
+
+header {
+    background: #1f1f1f;
+    padding: 10px 50px;
+}
+
+.imagen-container {
+    display: flex;
 
 }
+
+.imagen-container img {
+    width: 100%;
+}
+
+/*aca tengo los estilos del header */
+#logo {
+    width: 50px;
+}
+
+#logo img {
+
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+
+/*aca los estilos de hiro*/
+#hero {
+    position: relative;
+}
+
+#hero #computadora {
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .informacion-contenedor {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#hero .informacion-contenedor #foto{
+    width: 200px;;
+}
+
+#hero .informacion-contenedor #foto img {
+    border-radius: 100%;
+}
+
